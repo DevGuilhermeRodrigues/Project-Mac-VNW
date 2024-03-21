@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const ContainerMequi = styled.div`
     display: flex;
     flex-direction: column;
@@ -9,7 +8,6 @@ export const ContainerMequi = styled.div`
     padding: 2em;
 
     div {
-        border: 1px solid red;
         display: flex;
         align-items: center;
     }
