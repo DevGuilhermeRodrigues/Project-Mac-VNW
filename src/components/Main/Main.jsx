@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import BigMac from '../../assets/bigmac.png';
 import Batata from '../../assets/batata.png';
 import Sorvete from '../../assets/sorvete.png';
@@ -9,18 +9,20 @@ import Card from './Card';
 import * as S from '../../components/Main/main_style';
 
 export default function Main() {
+
   return (
+
     <main>
         <S.ContainerMequi>
             <S.ContainerPrincipal>
-                <img src={BigMac} alt='Hamburguer méqui'/>
+                <img src={BigMac}/>
                 <h1>Bateu aquela <span>#fome</span> de <span>méqui</span>?</h1>
             </S.ContainerPrincipal>
 
             <S.ContainerImagens>
                 <img src={BigMac} alt=''/>
                 <img src={Batata} alt=''/>
-                <img src={Sorvete}alt=''/>
+                <img src={Sorvete} alt=''/>
             </S.ContainerImagens>
         </S.ContainerMequi>
 
